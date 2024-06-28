@@ -11,7 +11,7 @@ const HomePage = async () => {
   return (
     <>
       <p>sd</p>
-
+      <h1>fjiufdjfdjfdj hello</h1>
       <div className="flex justify-center items-center h-screen">
         <ul className="text-white bg-blue-800  ">
           {data.getBank.map((e: Props) => (
