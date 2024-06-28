@@ -3,7 +3,7 @@ import Product from "@/lib/models/products"
 import { NextResponse } from "next/server"
 
 
-export const GETr = async () => {
+export const GET = async () => {
     try {
         await connect()
         const products = await Product.find()
