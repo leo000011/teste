@@ -12,13 +12,13 @@ const HomePage = async () => {
     <>
       <p>sd</p>
       <div className="flex justify-center items-center h-screen">
-        {/* <ul className="text-white bg-blue-800  ">
+         <ul className="text-white bg-blue-800  ">
           {data.getBank.map((e: Props) => (
             <li key={e._id}>
               {e.description}, {e.title}, {e.price}, {e.imageUrl}
             </li> 
           ))}
-        </ul>*/}
+        </ul>
       </div>
     </>
   );
