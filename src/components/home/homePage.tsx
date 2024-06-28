@@ -1,0 +1,27 @@
+import React from "react";
+import HomeSection from "./HomeSection";
+import Props from "@/app/type/type";
+
+const HomePage = async () => {
+  const response = await fetch("http://localhost:3000/api/products", {
+    method: "GET",
+  });
+  const data = await response.json();
+
+  return (
+    <>
+    hello
+      <div className="flex justify-center items-center h-screen">
+        <ul className="text-white bg-blue-800  ">
+          {data.getBank.map((e: Props) => (
+            <li key={e._id}>
+              {e.description}, {e.title}, {e.price}, {e.imageUrl}
+            </li>
+          ))}
+        </ul>
+      </div>
+    </>
+  );
+};
+
+export default HomePage;
