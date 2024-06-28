@@ -16,9 +16,9 @@ const HomePage = async () => {
           {data.getBank.map((e: Props) => (
             <li key={e._id}>
               {e.description}, {e.title}, {e.price}, {e.imageUrl}
-            </li> */}
+            </li> 
           ))}
-        </ul>
+        </ul>*/}
       </div>
     </>
   );
