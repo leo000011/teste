@@ -3,10 +3,10 @@ import HomeSection from "./home-section";
 import Props from "@/app/type/type";
 
 const HomePage = async () => {
-  // const response = await fetch(`${process.env.URL_LINK}/api/products`, {
-  //   method: "GET",
-  // });
-  // const data = await response.json();
+  const response = await fetch(`${process.env.URL_LINK}/api/products`, {
+    method: "GET",
+ });
+   const data = await response.json();
 
   return (
     <>
