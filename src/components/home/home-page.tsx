@@ -1,5 +1,5 @@
 import React from "react";
-import HomeSection from "./HomeSection";
+import HomeSection from "./home-section";
 import Props from "@/app/type/type";
 
 const HomePage = async () => {
